@@ -1,0 +1,33 @@
+{
+  "name": "god-fathers-ai-mcp",
+  "version": "1.0.0",
+  "description": "God Fathers AI Model Context Protocol Server for Autonomous Paternal Wisdom, Generational Mentorship, Moral Guardianship & Sacred Heritage Protection Protocol",
+  "tools": [
+    {
+      "name": "audit_generational_stewardship",
+      "description": "Audit decisions and generational succession against paternal wisdom, character formation, and covenant stewardship",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "context": { "type": "string" },
+          "evaluation_metric": { "type": "string" }
+        },
+        "required": ["context"]
+      }
+    },
+    {
+      "name": "disburse_orphan_heritage_aid",
+      "description": "Trigger automated micro-escrow releases for orphan education, paternal mentorship apprenticeships, and heritage preservation",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "category": { "type": "string" },
+          "recipient": { "type": "string" },
+          "amount_wei": { "type": "string" },
+          "proof_hash": { "type": "string" }
+        },
+        "required": ["category", "recipient", "amount_wei"]
+      }
+    }
+  ]
+}
